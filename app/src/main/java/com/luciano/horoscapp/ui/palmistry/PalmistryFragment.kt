@@ -8,7 +8,10 @@ import android.view.ViewGroup
 import com.luciano.horoscapp.R
 import com.luciano.horoscapp.databinding.FragmentLuckBinding
 import com.luciano.horoscapp.databinding.FragmentPalmistryBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+// para recibir cosas inyectadas
+@AndroidEntryPoint
 class PalmistryFragment : Fragment() {
 
     private var _binding: FragmentPalmistryBinding? = null

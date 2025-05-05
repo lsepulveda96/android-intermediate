@@ -8,8 +8,12 @@ import android.view.ViewGroup
 import com.luciano.horoscapp.R
 import com.luciano.horoscapp.databinding.FragmentHoroscopeBinding
 import com.luciano.horoscapp.databinding.FragmentLuckBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class LuckFragment : Fragment() {
+
+    //para comunicarme con viewModel
 
     private var _binding: FragmentLuckBinding? = null
     private val binding get() = _binding!!
